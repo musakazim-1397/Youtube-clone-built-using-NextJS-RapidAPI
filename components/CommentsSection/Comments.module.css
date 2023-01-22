@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.comment{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    margin: 1rem 0;
+}
+
+.avatarContainer{
+    position: relative;
+    width: 115px;
+    height: 40px;    
+}
+
+
+
+.avatarNameAndComment{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+    min-width: 40rem;
+    flex-wrap: wrap;
+}

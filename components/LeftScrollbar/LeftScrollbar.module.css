@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 90vh;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+
+.navItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0px;
+    padding: 0.3rem 0.6rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.iconContainer{
+    margin-right: 1rem;
+}

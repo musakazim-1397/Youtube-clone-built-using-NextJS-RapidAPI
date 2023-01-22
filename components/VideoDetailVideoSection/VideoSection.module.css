@@ -1,0 +1,66 @@
+.reactPlayerContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoDetailContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.videoTagsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.videoStatisticsAndDetailContainer{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    margin: 0;
+}
+
+.channelContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0.5rem;
+    width: 100%;
+    border: 1px solid grey;
+    margin: 2rem 0 1rem 0;
+}
+
+.channelAvatarAndNameContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1rem;
+    max-width: 12rem;
+}
+
+.channelAvatarContainer{
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.subscribeBtn{
+    background-color: red;
+    color: white;
+    padding: 0.8rem 1rem;
+    outline: none;
+    border: none;
+}
+

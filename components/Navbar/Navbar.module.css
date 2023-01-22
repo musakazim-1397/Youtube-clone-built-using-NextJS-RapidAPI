@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height:10vh;
+    position: sticky;
+}
+
+.logoTextIconContainer{
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-left: 1rem;
+}
+
+.logoText{
+    background: linear-gradient(to right, #ff0707 50%, #137eb1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+.input{
+    min-width: 16rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 17px;
+    color: grey;
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+}
+
+.input::placeholder{
+    color: grey;
+}
+
+.searchIconContainer{
+    margin-left: -1.5rem;
+}
