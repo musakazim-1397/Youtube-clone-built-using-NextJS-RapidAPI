@@ -5,8 +5,8 @@ const Comments = ({ videoComments }) => {
   return (
     <div className={classes.container}>
       <h1 className={classes.title} style={{fontSize:'1.6rem'}}>Comments</h1>
-      {videoComments.map((comment) => (
-        <div className={classes.comment}>
+      {videoComments.map((comment, index) => (
+        <div className={classes.comment} key={index}>
           <div className={classes.avatarContainer}>
             <Image
               src={
